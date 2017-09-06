@@ -4,7 +4,9 @@ const mongoose=require("mongoose")
 const config=require('./config/database');
 const path=require("path")
 mongoose.Promise=global.Promise;
-mongoose.connect(config.uri,(err)=>{
+mongoose.connect(config.uri,{
+    useMongoClient: true,
+  }, (err)=>{
     if(err){
         console.log("not connected")
     }else{
