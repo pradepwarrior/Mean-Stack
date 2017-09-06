@@ -1,0 +1,27 @@
+{
+  "name": "mean-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradepwarrior/Mean-Stack.git"
+  },
+  "author": "Pradep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradepwarrior/Mean-Stack/issues"
+  },
+  "homepage": "https://github.com/pradepwarrior/Mean-Stack#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.3.2"
+  }
+}
