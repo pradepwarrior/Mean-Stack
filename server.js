@@ -10,7 +10,7 @@ mongoose.connect(config.uri,{
     if(err){
         console.log("not connected")
     }else{
-        //console.log(config.secret)
+        console.log(config.secret)
         console.log("connected-"+config.db)
     }
 })
